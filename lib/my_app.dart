@@ -5,9 +5,9 @@ class MyApp extends StatelessWidget {
   MyApp({super.key});
 
   final List<Color> colors = [
-    Colors.lightBlueAccent,
-    Colors.blueAccent,
-    Colors.indigo,
+    const Color.fromRGBO(232,209,224, 1),
+    const Color.fromRGBO(220,220,235, 1),
+    const Color.fromRGBO(216,231,245, 1),
   ];
 
   @override

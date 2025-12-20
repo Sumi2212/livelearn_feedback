@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'main_text.dart';
 
 const startAlignment = Alignment.topCenter;
 const endAlignment = Alignment.bottomCenter;
@@ -17,6 +18,9 @@ class MainContainer extends StatelessWidget {
           begin: startAlignment,
           end: endAlignment,
         ),
+      ),
+      child: Center(
+        child: MainText(),
       ),
     );
   }
